@@ -73,13 +73,13 @@ function show_login_form($error = '') {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>图床内测第二波 - API Key登录</title>
+        <title>IMHO Admin - API Key登录</title>
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="bg-gray-100 min-h-screen flex items-center justify-center">
         <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
             <div class="text-center mb-6">
-                <h1 class="text-2xl font-bold text-gray-800">图床内测第二波Web UI</h1>
+                <h1 class="text-2xl font-bold text-gray-800">IMHO Admin - API Key登录</h1>
                 <p class="text-gray-600 mt-2">请输入佬的API Key进行登录</p>
             </div>
             
@@ -866,7 +866,6 @@ $files_list = get_files_list($upload_dir, $base_url, $supported_types, $all_supp
                                         <ul class="mt-1 list-disc list-inside space-y-1">
                                             <li>请妥善保管佬的API Key，不要泄露给他人</li>
                                             <li>API Key具有与佬账户相同的权限</li>
-                                            <li>如果怀疑API Key泄露，请联系雪球重新生成</li>
                                         </ul>
                                     </div>
                                 </div>

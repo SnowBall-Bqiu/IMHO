@@ -21,6 +21,7 @@ class ImageHostConfig {
     
     private function initConfig() {
         $this->config = [
+            
             // 用户API Key映射 - 每个用户拥有独立的API Key
             'user_api_keys' => [
                 // 管理员用户
@@ -28,40 +29,15 @@ class ImageHostConfig {
                     'user_id' => 'admin',
                     'username' => 'admin',
                     'role' => 'admin',
-                    'api_key' => 'ky-admin-kTfq5EmleFd8tJgjh16igQ9q6geeBE2FjDRsP3Jv5M47bYrFbresF5xqVcbJJLBT',
-                    'created_at' => '2024-01-01',
-                    'status' => 'active'
-                ],
-                // 普通用户
-                'user_key_001' => [
-                    'user_id' => 'user_alice',
-                    'username' => 'user_alice',
-                    'role' => 'user',
-                    'api_key' => 'ky-user-alice-5g4h3j2k1l0z9x8c7v6b5n4m3q2w1e0r9t8y7u6i5o4p3a2s1d0f',
-                    'created_at' => '2024-01-01',
-                    'status' => 'active'
-                ],
-                'user_key_002' => [
-                    'user_id' => 'user_bob',
-                    'username' => 'user_bob',
-                    'role' => 'user',
-                    'api_key' => 'ky-user-bob-1a2s3d4f5g6h7j8k9l0z1x2c3v4b5n6m7q8w9e0r1t2y3u4i5o6p7a8s9d0f1g',
-                    'created_at' => '2024-01-01',
-                    'status' => 'active'
-                ],
-                'user_key_003' => [
-                    'user_id' => 'user_charlie',
-                    'username' => 'user_charlie',
-                    'role' => 'user',
-                    'api_key' => 'ky-user-charlie-9z8x7c6v5b4n3m2q1w0e9r8t7y6u5i4o3p2a1s0d9f8g7h6j5k4l3z2x1c0v9b',
-                    'created_at' => '2024-01-01',
+                    'api_key' => 'ky-admin-123',
+                    'created_at' => '2025-06-15',
                     'status' => 'active'
                 ]
             ],
             
             // 文件存储配置
-            'upload_dir' => '',
-            'base_url' => '',
+            'upload_dir' => 'i/',
+            'base_url' => 'https://***.*/i/',
             
             // 支持的文件类型
             'supported_types' => [
@@ -82,11 +58,10 @@ class ImageHostConfig {
             'json_records_file' => __DIR__ . '/date/records/upload_records.json',
             'user_files_record' => __DIR__ . '/date/records/user_files.json',
             'image_source_map' => __DIR__ . '/date/records/image_source_map.json',
-    
-
+            
             // 返回URL映射（兼容原API）
             'return_url_map' => [
-                '1' => ''
+                '1' => 'https://***.*'
             ]
         ];
         
