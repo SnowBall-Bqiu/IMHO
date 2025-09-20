@@ -71,9 +71,12 @@ chmod 755 -R .
 
 ### 接入PicGO
 #### 下载自定义web图床插件
-![](https://pan-image-hosting-2301.bqiu.ru/p/image-hosting/20250920183458122.png)
+<img width="450" height="134" alt="image" src="https://github.com/user-attachments/assets/c916b4ac-a386-4c32-a1aa-185501ca7cd8" />
+
 #### 示例配置如图
-![](https://pan-image-hosting-2301.bqiu.ru/p/image-hosting/20250920183939628.png)
+<img width="885" height="619" alt="image" src="https://github.com/user-attachments/assets/a0e4f730-bd1f-4932-95f4-9d10c942917c" />
+
+
 
 
 ---
